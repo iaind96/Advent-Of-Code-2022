@@ -47,7 +47,7 @@ def ProcessInventory(inventoryUnprocessed):
 
 if __name__ == '__main__':
 
-    invetoryUnprocessed = ReadInput(r'inputs/day1_example.txt')
+    invetoryUnprocessed = ReadInput(r'../inputs/day1_example.txt')
     # invetoryUnprocessed = ReadInput(r'inputs/day1.txt')
 
     ProcessInventory(invetoryUnprocessed)

@@ -33,7 +33,7 @@ def ProcessAssignments(assignments):
 if __name__ == '__main__':
 
     # assignments = ReadInput(r'inputs\day4_example.txt')
-    assignments = ReadInput(r'inputs\day4.txt')
+    assignments = ReadInput(r'../inputs/day4.txt')
 
     ProcessAssignments(assignments)
 

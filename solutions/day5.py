@@ -54,7 +54,7 @@ def ArrangeCrates2(crates, instructions):
 if __name__ == '__main__':
 
     # crates, instructions = ReadInput(r'inputs\day5_example.txt')
-    crates, instructions = ReadInput(r'inputs\day5.txt')
+    crates, instructions = ReadInput(r'../inputs/day5.txt')
 
     # ArrangeCrates(crates, instructions)
     ArrangeCrates2(crates, instructions)

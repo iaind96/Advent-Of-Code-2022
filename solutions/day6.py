@@ -19,6 +19,6 @@ def ProcessStream(stream, packetLength):
 if __name__ == '__main__':
 
     # streams = ReadInput(r'inputs\day6_example.txt')
-    streams = ReadInput(r'inputs\day6.txt')
+    streams = ReadInput(r'../inputs/day6.txt')
 
     ProcessStream(streams[0], 14)

@@ -65,7 +65,7 @@ def ScoreGame2(strategy):
 if __name__ == '__main__':
 
     # strategy = ReadInput(r'inputs/day2_example.txt')
-    strategy = ReadInput(r'inputs/day2.txt')
+    strategy = ReadInput(r'../inputs/day2.txt')
 
     # ScoreGame(strategy)
     ScoreGame2(strategy)

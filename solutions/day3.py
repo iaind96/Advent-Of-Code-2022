@@ -48,7 +48,7 @@ def ProcessGroups(rucksacks):
 if __name__ == '__main__':
 
     # rucksacks = ReadInput(r'inputs\day3_example.txt')
-    rucksacks = ReadInput(r'inputs\day3.txt')
+    rucksacks = ReadInput(r'../inputs/day3.txt')
 
     # ProcessRucksacks(rucksacks)
     ProcessGroups(rucksacks)

@@ -76,7 +76,7 @@ def ProcessTerminalOutput(terminalOutput):
 if __name__ == '__main__':
 
     # terminalOutput = ReadInput(r'inputs\day7_example.txt')
-    terminalOutput = ReadInput(r'inputs\day7.txt')
+    terminalOutput = ReadInput(r'../inputs/day7.txt')
 
     ProcessTerminalOutput(terminalOutput)
 
