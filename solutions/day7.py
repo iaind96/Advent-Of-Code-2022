@@ -47,12 +47,11 @@ def ProcessTerminalOutput(terminalOutput):
 
     directorySizeThreshold = 10000
     totalDiskSpace = 70000000
-    updateDiskSapce = 30000000
+    updateDiskSpace = 30000000
 
     totalSize, directorySizes = FindDirectorySizes(directoryStructure)
 
     totalSizeBelowThreshold = 0
-
     for directorySize in directorySizes:
         if directorySize <= directorySizeThreshold:
             totalSizeBelowThreshold += directorySize
@@ -60,7 +59,7 @@ def ProcessTerminalOutput(terminalOutput):
     print(f'Total directory size below {directorySizeThreshold} = {totalSizeBelowThreshold}')
 
     remainingDiskSpace = totalDiskSpace - totalSize
-    requiredDiskSpace = updateDiskSapce - remainingDiskSpace
+    requiredDiskSpace = updateDiskSpace - remainingDiskSpace
 
     directorySizesSorted = sorted(directorySizes)
     directoryIndex = 0
